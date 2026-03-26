@@ -33,14 +33,14 @@ No shortcuts. Every component is built from scratch and understood deeply before
 
 ### ✅ Phase 2 — Rule-Based Solver
 - [x] Rule 1: 0 Voltorb rows/cols → all tiles guaranteed safe
-- [ ] Rule 2: hidden tiles = Voltorb count → all hidden tiles are Voltorbs
-- [ ] Cross-referencing rows and columns to pinpoint specific tiles
-- [ ] Game loop with win/loss detection
+- [x] Rule 2: hidden tiles = Voltorb count → all hidden tiles are Voltorbs
+- [x] Cross-referencing rows and columns to pinpoint specific tiles
+- [x] Game loop with win/loss detection
 
 ### 🔲 Phase 3 — Probabilistic Solver
-- [ ] Compute Voltorb probability per tile using constraints
-- [ ] Handle ambiguous cases with minimum-risk heuristic
-- [ ] Decide when to quit vs. risk a flip
+- [x] Compute Voltorb probability per tile using constraints
+- [x] Handle ambiguous cases with minimum-risk heuristic
+- [x] Decide when to quit vs. risk a flip
 
 ### 🔲 Phase 4 — Gymnasium Environment
 - [ ] Wrap the game as a custom `gymnasium` environment
