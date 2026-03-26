@@ -74,6 +74,15 @@ No shortcuts. Every component is built from scratch and understood deeply before
 
 ---
 
+## Documentation
+
+- `CHANGELOG.md` — project change history by version/date
+- `docs/ARCHITECTURE.md` — system flow from generator to solver and RL path
+- `docs/EXPERIMENTS.md` — benchmark runs, configs, and results
+- `docs/DESIGN_DECISIONS.md` — rationale behind current implementation choices
+
+---
+
 ## How to Run
 
 ```bash
